@@ -42,58 +42,78 @@
 
 ## 🔐 Setup (Safe for Public Use)
 
-1. Clone the repo:
-   
+---
+
+## 🔐 Setup (Safe for Public Use)
+
+### 1. Clone the repo
+
+```bash
 git clone https://github.com/ymu4/-EduFileUploader-.git
 cd -EduFileUploader-
+``` 
 
-
-3. Install dependencies:
-   
+### 3. Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-
-3.Create a .env file:
+### 3.Create a .env file:
+```bash
 
 BOT_TOKEN=your-bot-token
 CHANNEL_ID=your-channel-id
 WEBHOOK_URL=https://your-deployment-url
+```
+### 4. Run locally:
+```bash
 
-4. Run locally:
 python bot.py
 Use tools like ngrok for webhook testing.
+```
 
 
 
-Deployment
-This bot supports Render, Railway, Fly.io, or Heroku via Procfile.
+## Deployment
+This bot supports 
+- Render,
+- Railway,
+- Fly.io,
+- or Heroku via Procfile.
 
 Webhook should point to:
-https://<your-domain>/<BOT_TOKEN>
+```bash
 
+https://<your-domain>/<BOT_TOKEN>
+```
 The / endpoint is used by UptimeRobot or similar services to check if the bot is alive.
 
 
 Example Bot Flow
-/start
-
-Choose department
-
-Choose course or search
-
-Select year → semester
-
-Input professor’s name
-
-Upload document
-
-Receive animated confirmation
+1- /start
+2- Choose department
+3- Choose course or search
+4- Select year → semester
+5- Input professor’s name
+6- Upload document
+7- Receive animated confirmation
 
 
- Supported File Types
-✅ PDF, DOC, DOCX, TXT, ZIP
+ ## Supported File Types
+- ✅ PDF, DOC, DOCX, TXT, ZIP
+- ❌ Images, videos, and unsupported media are rejected
 
-❌ Images, videos, and unsupported media are rejected
+## 🛡 License
+MIT License — free to use and modify.
+
+## Author
+**Sumaya Alhashmi**  
+📧 y.mu4ll@gmail.com  
+🔗 [GitHub](https://github.com/ymu4)
+
+
+
+
 
 
 
