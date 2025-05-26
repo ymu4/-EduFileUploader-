@@ -29,13 +29,10 @@
 ## 🧾 Project Structure
 
 
-├── bot.py # Main bot logic
-
-├── requirements.txt # Python dependencies
-
-├── Procfile # For deployment (e.g., Render/Heroku)
-
-└── README.md # You're reading it!
+├── bot.py             # Main bot logic
+├── requirements.txt   # Python dependencies
+├── Procfile           # For deployment (e.g., Render/Heroku)
+└── README.md          # You're reading it!
 
 
 ---
@@ -89,14 +86,16 @@ https://<your-domain>/<BOT_TOKEN>
 The / endpoint is used by UptimeRobot or similar services to check if the bot is alive.
 
 
-Example Bot Flow
-1- /start
-2- Choose department
-3- Choose course or search
-4- Select year → semester
-5- Input professor’s name
-6- Upload document
-7- Receive animated confirmation
+## 🤖 Example Bot Flow
+
+1. `/start`
+2. Choose department
+3. Choose course or search
+4. Select year → semester
+5. Input professor’s name
+6. Upload document
+7. Receive animated confirmation 🎉
+
 
 
  ## Supported File Types
