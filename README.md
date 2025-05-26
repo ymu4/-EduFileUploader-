@@ -30,8 +30,11 @@
 
 
 ├── bot.py # Main bot logic
+
 ├── requirements.txt # Python dependencies
+
 ├── Procfile # For deployment (e.g., Render/Heroku)
+
 └── README.md # You're reading it!
 
 
